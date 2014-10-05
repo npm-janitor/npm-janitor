@@ -24,4 +24,26 @@ Create a bot that would:
 
 * If any issues found with the `package.json` clone the repo.
 
-* Create an issue and send a PR if possible fixing the `package.json` using `npm` module. 
+* Create an issue and send a PR if possible fixing the `package.json` using `npm` module.
+
+---
+
+# Project on halt!
+
+I contacted a human from Github and got the below as a reponse, so until we get a green signal, this seems to be a rest :/
+
+```
+Hi Hemanth,
+
+Thanks for getting in touch! The problem is this item:
+
+> Raise an issue or fork and send a PR
+
+We don't currently allow bots to create issues, comments, and PRs. This usually ends up in repo owners reporting these things as spam.
+
+Let us know if you have any other questions!
+
+Cheers,
+Jamie
+```
+ 
