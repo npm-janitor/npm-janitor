@@ -28,7 +28,7 @@ Create a bot that would:
 
 ---
 
-# Project on halt!
+<strike># Project on halt!</stirke>
 
 I contacted a human from Github and got the below as a reponse, so until we get a green signal, this seems to be a rest :/
 
@@ -46,4 +46,6 @@ Let us know if you have any other questions!
 Cheers,
 Jamie
 ```
+
+P.S: WIP now!
  
