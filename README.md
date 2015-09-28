@@ -8,13 +8,22 @@ janitor is coming soon.
 
 Create a bot that would:
 
-* Go throught all the published node modules.
+* Go throught all the published node modules for a partiuclar user.
 * Check for validity of their package.json
-* Raise an issue or fork and send a PR
+* Raise an issue or send a PR as the user itself not as a bot!
 
 ---
 
-# The strategy:
+# The New strategy:
+ 
+ * Get write acess to repos of the user using [this](https://npm-janitor.herokuapp.com/login).
+ 
+ * Using `package-json-validator` module validate the `package.json`
+ 
+ * Send a PR if needed. 
+
+
+# The Old strategy:
 
 * Fix all published node module names from the [regsitry](https://registry.npmjs.org/-/all/) we might use `jsonselect` module to filer out names.
 
@@ -28,7 +37,7 @@ Create a bot that would:
 
 ---
 
-<strike># Project on halt!</stirke>
+<strike># Project on halt!</strike>
 
 I contacted a human from Github and got the below as a reponse, so until we get a green signal, this seems to be a rest :/
 
